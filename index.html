@@ -7,6 +7,11 @@
     <title>PDF Reader</title>
 </head>
 <body>
-    
+    <label for="pdf">Choose a PDF File: </label>
+    <input type="file" name="pdf" title="File" placeholder="Select your file..." id="pdf_input" />
+    <canvas id="pdf" style="display: block;"></canvas>
+
+    <script src="pdfJS/pdf.js"></script>
+    <script src="PDFReader.js"></script>
 </body>
 </html>
